@@ -1,0 +1,52 @@
+<html>
+<body>
+	<form>
+		<table>
+		<tr><td>What kind of car would you like to buy?</td></tr>
+		<tr><td> 
+			<input type="radio" name="car" value="Proton" checked> Proton
+
+  			<input type="radio" name="car" value="Honda"> Honda
+
+			<input type="radio" name="car" value="Ferrari" checked> Ferrari
+
+			<input type="radio" name="car" value="Ford" checked> Ford
+										<br><br></td></tr>
+		<tr><td>What colour do you want on your car?</td></tr>
+		
+		<tr><td>
+			<select>
+  				<option>White</option>
+ 				<option>Red</option>
+  				<option>Black</option>
+  				<option>Blue</option>
+			</select>	
+<form action="demo_form.asp" method="get">
+  Other: <input type="text" other="text"><br>	
+							<br><br></td></tr>
+		<tr><td>Enter function of your prefered car: </td></tr>
+		<tr><td><textarea rows="5" cols="50"></textarea>
+				</td></tr>
+		<tr><td>Tell us how to get touch with you:<br><br></td></tr>
+		<tr><td><form action="demo_form.asp" method="get">
+  Name:   <input type="text" name="fname"><br>
+  E-mail: <input type="text" name="lname"><br>
+  Tel:    <input type="text" name="fname"><br>
+  Fax:    <input type="text" name="lname"><br>
+</td></tr>
+		<tr><td>
+<form action="">
+<input type="checkbox" name="vehicle" value="checkbox">Please contact me as soon as possible regarding this matter.<br>
+</td></tr>
+		<tr><td><button type="send" value="Send">Send</button>
+<button type="clear" value="clear">Clear</button></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		</table>
+	
+	</form>
+
+
+</body>
+</html>
